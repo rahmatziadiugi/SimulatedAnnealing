@@ -22,9 +22,10 @@ public class Main {
         SA simulateAnnealing = new SA();
         
         simulateAnnealing.getSoulution(-10.0, 10.0, -10.0, 10.0);
+        simulateAnnealing.showSolution();
         
-        System.out.println("input fr : ");
-        simulateAnnealing.showAccuracy(new Scanner(System.in).nextDouble());
+//        System.out.println("\ninput fr : ");
+//        simulateAnnealing.showAccuracy(new Scanner(System.in).nextDouble());
     }
     
 }
